@@ -69,9 +69,9 @@ function getOption() {
     legend: {
       top: 30,
       data: [
-        '易方达标普科技LOF(161128)',
-        '易方达标普500LOF(161125)',
-        '广发纳指100ETF(159941)',
+        '161128',
+        '161125',
+        '159941',
       ]
     },
     xAxis: {
@@ -89,7 +89,7 @@ function getOption() {
     },
     series: [
       {
-        name: "易方达标普科技LOF(161128)",
+        name: "161128",
         type: "line",
         showSymbol: false,
         smooth: true,
@@ -102,7 +102,7 @@ function getOption() {
         }
       },
       {
-        name: "易方达标普500LOF(161125)",
+        name: "161125",
         type: "line",
         showSymbol: false,
         smooth: true,
@@ -115,7 +115,7 @@ function getOption() {
         }
       },
       {
-        name: "广发纳指100ETF(159941)",
+        name: "159941",
         type: "line",
         showSymbol: false,
         smooth: true,
